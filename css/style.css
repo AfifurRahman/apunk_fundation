@@ -1,0 +1,497 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #F5F5F5;
+	font-family: calibri;
+	background-image: url(../gambar/bunga.png);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+}
+#background{
+	background-image: url(../gambar/background.png);
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+#header-top{
+	border:solid 0px;
+	width: 1000px;
+	height: 150px;
+	background-color: #800000;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+#header-top img {
+	width: 150px;
+	height: 150px;
+	margin-top: 3px;
+	margin-left: 20px;
+}
+#header-top h1 {
+	color: white;
+	font-style: italic;
+	padding-left: 130px;
+	margin-top: -120px;
+}
+#header-top h4 {
+	color: white;
+	font-family: lucida calligraphy;
+	padding-left: 180px;
+	margin-top: -10px;
+}
+#header-top p {
+	float: right;
+	margin-top: -120px;
+	margin-right: 20px;
+	color: white;
+}
+#banner-menu {
+	border:solid 0px;
+	width: 1000px;
+	height: 15px;
+	background-color: #CC0000;
+	margin: 0 auto;
+}
+#background-menu {
+	border:solid 0px;
+	width: 1000px;
+	height: 50px;
+	background-color: #900000;
+	margin: 0 auto;
+}
+#menu {
+	position: absolute;
+	margin-left: 30px;
+	z-index: 9999;
+}
+#menu ul {
+	margin:0px;
+	padding: 0px;
+	line-height: 50px;
+}
+#menu li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+}
+#menu a {
+	text-decoration: none;
+	color:white;
+}
+#menu li:hover{
+	background-color: #800000;
+}
+#menu a.active{
+	font-style: italic;
+}
+#menu ul li ul {
+	display: none;
+}
+#menu ul li:hover ul {
+	display: block;
+}
+
+#menu ul li:hover ul li{
+	background-color: #800000;
+	width: 200px;
+	text-align: justify;
+	padding-left: 10px;
+	color: white;
+}
+#menu ul li:hover ul li:hover{
+	background-color: #900000;
+}
+#body-isi{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#footer{
+	border:solid 0px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 60px;
+	background-color: #900000;
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+#footer p {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+#header-judul {
+	border:solid 2px #800000;
+	width: 950px;
+	height: auto;
+	border-right-style: none;
+	border-left-style: none;
+}
+#header-judul h3 {
+	padding-left: 20px;
+}
+/*-------------------------------------- UNTUK HOME --------------------------------------- */
+#slider{
+	border:solid 2px #CCCCCC;
+	width: 950px;
+	height: 450px;
+	margin: 0 auto;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../gambar/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:80px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../gambar/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+#body-left{
+	border:solid 0px;
+	width: 400px;
+	height: auto;
+	margin-top: 60px;
+}
+#tanggal{
+	margin-top: -30px;
+}
+#body-right{
+	border:solid 0px;
+	width: 550px;
+	height: auto;
+	margin-top: 60px;
+	margin-left: 400px;
+	margin-top: -300px;
+}
+#body-right h3{
+	font-style: italic;
+	padding-left: 100px;
+	margin-top: -460px;
+}
+#menu-divisi{
+	margin-left: 80px;
+}
+#menu-divisi ul {
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+#menu-divisi ul li {
+	width: 350px;
+	height: 50px;
+	border:dashed 1px #999999;
+	border-right-style: none;
+	border-left-style: none;
+	border-top-style: none;
+	padding-left: 10px;
+	list-style: none;
+	margin-left: 40px;
+}
+#menu-divisi a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+#menu-divisi a:hover{
+	color: #CC0000;
+}
+/*-------------------------------------- UNTUK Organisasi --------------------------------------- */
+#ketua {
+	border:solid 3px #999999;
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#ketua img {
+	width: 150px;
+	height: 150px;
+}
+#sekretaris{
+	border:solid 3px #999999;
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+#sekretaris img {
+	width: 150px;
+	height: 150px;
+}
+#wakil-ketua {
+	border:solid 3px #999999;
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -260px;
+	border-radius: 5px;
+}
+#wakil-ketua img {
+	width: 150px;
+	height: 150px;
+}
+#bendahara{
+	border:solid 3px #999999;
+	width: 200px;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 5px;
+	margin-left: 750px;
+	margin-top: -255px;
+}
+#bendahara img {
+	width: 150px;
+	height: 150px;
+}
+#divisi-it {
+	border:solid 3px #999999;
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 50px;
+}
+#divisi-it ul {
+	margin:0px;
+	padding: 0px;
+}
+#divisi-it li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin-left: 33px;
+}
+#divisi-it img {
+	width: 150px;
+	height: 150px;
+}
+#divisi-desainer {
+	border:solid 3px #999999;
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: -255px;
+}
+#divisi-desainer ul {
+	margin:0px;
+	padding: 0px;
+}
+#divisi-desainer li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin-left: 33px;
+}
+#divisi-desainer img {
+	width: 150px;
+	height: 150px;
+}
+#divisi-akuntansi {
+	border:solid 3px #999999;
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 50px;
+}
+#divisi-akuntansi ul {
+	margin:0px;
+	padding: 0px;
+}
+#divisi-akuntansi li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin-left: 33px;
+}
+#divisi-akuntansi img {
+	width: 150px;
+	height: 150px;
+}
+#divisi-teknik {
+	border:solid 3px #999999;
+	width: 400px;
+	height: 250px;
+	border-radius: 5px;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 500px;
+	margin-top: -255px;
+}
+#divisi-teknik ul {
+	margin:0px;
+	padding: 0px;
+}
+#divisi-teknik li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin-left: 33px;
+}
+#divisi-teknik img {
+	width: 150px;
+	height: 150px;
+}
+/*-------------------------------------- UNTUK TENTANG APUNK --------------------------------------- */
+#deskripsi {
+	border:solid 0px;
+	width: 950px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#deskripsi h1 {
+	font-style: italic;
+}
+#deskripsi p {
+	text-align: justify;
+	line-height: 25px;
+}
+#visi_misi{
+	margin-left: 50px;
+	line-height: 25px;
+}
+/*-------------------------------------- KETUA --------------------------------------- */
+#table-data {
+	margin-top: 10px;
+}
+#table-data img {
+	border-radius: 3px;
+}
+#table-data th{
+	text-align: justify;
+	padding-left: 10px;
+}
+.artikel {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: solid 1px #666666;
+	width: 100%;
+	height: auto;
+	border-right-style: none;
+	border-left-style: none;
+}
+.artikel:hover{
+	background-color: #F5F5F5;
+}
+.artikel h3 {
+	color: #900000;
+	font-family: calibri;
+}
+.artikel p {
+	color: #666666;
+	font-family: calibri;
+	text-align: justify;
+}
+#post{
+	font-style: italic;
+}
+#input {
+	width: 250px;
+	height: 30px;
+}
+#submit {
+	border: solid 0px;
+	width: 80px;
+	height: 30px;
+	color: white;
+	background-color: #800000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#submit:hover{
+	opacity: 0.7;
+}
+.foto-gallery{
+	width: 950px;
+	height: auto;
+}
+.foto-gallery ul {
+	margin: 0px;
+	padding: 0px;
+}
+.foto-gallery li {
+	float: left;
+	margin-left: 10px;
+	list-style: none;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.foto-gallery p {
+	text-align: center;
+	color: #900000;
+}
+.foto-gallery img {
+	width: 150px;
+	height: 120px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
